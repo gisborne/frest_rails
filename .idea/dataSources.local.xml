@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails frest: development" uuid="77398bb4-54fc-4775-adb7-e313710d5b5e">
+      <schema-pattern>frest_development.*</schema-pattern>
+      <default-schemas>frest_development.*</default-schemas>
+    </data-source>
+    <data-source name="Rails frest: test" uuid="8bbd6139-0e83-4a4e-b9fb-d161480abe23">
+      <schema-pattern>frest_test.*</schema-pattern>
+      <default-schemas>frest_test.*</default-schemas>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @namespace.name %>
+</p>
+
+<p>
+  <strong>Namespace:</strong>
+  <%= @namespace.namespace %>
+</p>
+
+<%= link_to 'Edit', edit_namespace_path(@namespace) %> |
+<%= link_to 'Back', namespaces_path %>
