@@ -3,8 +3,7 @@ require 'rails_helper'
 RSpec.describe "namespaces/show", type: :view do
   before(:each) do
     @namespace = assign(:namespace, Namespace.create!(
-      :name => "Name",
-      :namespace => nil
+      :name => "Name"
     ))
   end
 

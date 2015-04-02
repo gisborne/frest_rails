@@ -4,13 +4,9 @@ RSpec.describe "namespaces/index", type: :view do
   before(:each) do
     assign(:namespaces, [
       Namespace.create!(
-        :name => "Name",
-        :namespace => nil
-      ),
+        :name => "Name"),
       Namespace.create!(
-        :name => "Name",
-        :namespace => nil
-      )
+        :name => "Name")
     ])
   end
 

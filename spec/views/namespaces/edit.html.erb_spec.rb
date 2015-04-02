@@ -3,8 +3,7 @@ require 'rails_helper'
 RSpec.describe "namespaces/edit", type: :view do
   before(:each) do
     @namespace = assign(:namespace, Namespace.create!(
-      :name => "MyString",
-      :namespace => nil
+      :name => "MyString"
     ))
   end
 
@@ -15,7 +14,6 @@ RSpec.describe "namespaces/edit", type: :view do
 
       assert_select "input#namespace_name[name=?]", "namespace[name]"
 
-      assert_select "input#namespace_namespace_id[name=?]", "namespace[namespace_id]"
     end
   end
 end
